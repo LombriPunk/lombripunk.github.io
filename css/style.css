@@ -26,10 +26,10 @@ Table of Content:
 06/ feature
 07/ button
 08/ service
-09/ testimonials 
-10/ blog 
-11/ contact 
-12/ footer 
+09/ testimonials
+10/ blog
+11/ contact
+12/ footer
 =====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
@@ -144,6 +144,7 @@ i:before {
 
 .l_title img {
   padding-bottom: 30px;
+  max-height: 70px;
 }
 
 .l_title h6 {
@@ -192,6 +193,10 @@ i:before {
   border: none;
   border-radius: 0px;
   padding: 0px;
+}
+
+.header-icon img {
+  max-height: 70px !important;
 }
 
 .main_menu_area .navbar .navbar-toggler span {
@@ -577,7 +582,7 @@ i:before {
 }
 
 .feature_item .f_icon {
-  min-height: 91px;
+  min-height: 70px;
   position: relative;
 }
 
@@ -588,6 +593,12 @@ i:before {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+  max-height: 70px;
+}
+
+.feature_item .f_icon_iot img {
+  left: 48%;
+  max-height: 90px;
 }
 
 .feature_item h4 {
@@ -749,7 +760,7 @@ i:before {
 }
 
 .team_img_inner .row {
-  margin-left: -10px;
+  margin-left: -90px;
   margin-right: -10px;
 }
 
@@ -761,7 +772,14 @@ i:before {
 
 .team_img_inner .team_img_item {
   overflow: hidden;
+  width: 400px;
 }
+
+.team_img_item img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 
 /* End Team People Area css
 ============================================================================================ */
@@ -2289,7 +2307,7 @@ i:before {
 }
 
 .f_title h3 {
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -2301,6 +2319,9 @@ i:before {
 
 .f_about_widget img {
   padding-bottom: 55px;
+  max-height: 120px;
+  margin-left: -12px;
+  margin-bottom: -30px;
 }
 
 .f_about_widget p {
@@ -2376,14 +2397,15 @@ i:before {
 }
 
 .f_subs_widget .input-group .input-group-btn {
-  margin-left: 0px;
-  display: block;
-  margin-top: 25px;
+  /*margin-left: 0px;
+  display: block;*/
 }
 
 .f_subs_widget .input-group .input-group-btn .submit_btn {
-  margin-left: 0px;
+  /*margin-left: 0px;*/
   border-radius: 35px !important;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .f_subs_widget .input-group .input-group-btn .submit_btn:hover {
