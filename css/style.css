@@ -100,7 +100,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .p_100 {
-  padding: 100px 0px;
+  padding: 60px 0px;
 }
 
 iframe {
@@ -139,12 +139,12 @@ i:before {
 }
 
 .l_title {
-  padding-bottom: 55px;
+  padding-bottom: 30px;
 }
 
 .l_title img {
-  padding-bottom: 30px;
-  max-height: 70px;
+  padding-bottom: 10px;
+  max-height: 90px;
 }
 
 .l_title h6 {
@@ -196,7 +196,8 @@ i:before {
 }
 
 .header-icon img {
-  max-height: 70px !important;
+  max-height: 60px !important;
+  margin-left: 55px;
 }
 
 .main_menu_area .navbar .navbar-toggler span {
@@ -316,7 +317,7 @@ i:before {
   top: -70px;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(199, 191, 246, 0.8);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -343,6 +344,7 @@ i:before {
   position: relative;
   z-index: 3;
   overflow: hidden;
+  text-align: center
 }
 
 .banner_area:before {
@@ -423,6 +425,7 @@ i:before {
   width: 10px;
   background: #b3adff;
   border: 5px solid #fff;
+  /*margin-bottom: 30px;*/
 }
 
 .main_slider_area .rev_slider .tp-bullets .tp-bullet.selected {
@@ -597,7 +600,6 @@ i:before {
 }
 
 .feature_item .f_icon_iot img {
-  left: 48%;
   max-height: 90px;
 }
 
@@ -679,6 +681,7 @@ i:before {
 /* Team People Area css
 ============================================================================================ */
 .team_people_area {
+  text-align: center; /* TODO: Preferencia */
   overflow: hidden;
   padding-top: 90px;
 }
@@ -933,8 +936,8 @@ i:before {
 /* Service Solution Area css
 ============================================================================================ */
 .service_solution_area {
-  background: url(../img/service-bg.jpg) no-repeat fixed center right;
-  background-size: cover;
+  /*background: url(../img/service-bg.jpg) no-repeat fixed center right;
+  background-size: cover;*/
   position: relative;
   z-index: 3;
 }
@@ -960,7 +963,7 @@ i:before {
 }
 
 .solution_collaps {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .solution_collaps .card {
@@ -2308,7 +2311,7 @@ i:before {
 
 .f_title h3 {
   font-size: 20px;
-  color: #fff;
+  color: #000;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
@@ -2318,10 +2321,10 @@ i:before {
 }
 
 .f_about_widget img {
-  padding-bottom: 55px;
-  max-height: 120px;
+  max-height: 60px;
+  margin-top: -10px;
   margin-left: -12px;
-  margin-bottom: -30px;
+  margin-bottom: 20px;
 }
 
 .f_about_widget p {
