@@ -2324,7 +2324,8 @@ i:before {
 }
 
 .f_title h3 {
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
   color: #000;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
