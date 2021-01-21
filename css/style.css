@@ -375,15 +375,12 @@ i:before {
 }
 
 .banner_inner_text {
-  padding-top: 200px;
   position: relative;
-  padding-bottom: 95px;
 }
 
 .banner_inner_text:before {
   content: "";
   width: 213px;
-  height: 1px;
   position: absolute;
   background: #ced0e0;
   left: 0px;
@@ -395,6 +392,7 @@ i:before {
   color: #0b1033;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
+  margin-top: 80px;
 }
 
 .banner_inner_text p {
@@ -402,7 +400,6 @@ i:before {
   color: #6b7d8e;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  padding-top: 15px;
 }
 
 /* End Banner Area css
@@ -482,6 +479,10 @@ i:before {
   border-bottom-left-radius: 60px;
   border-top-left-radius: 60px;
   border-right: 0px;
+}
+
+.main_slider {
+  height: auto !important;
 }
 
 /* End Slider css
@@ -788,13 +789,13 @@ i:before {
 }
 
 .team_img_inner .team_img_item {
+  width: 300px;
+  height: 300px;
   overflow: hidden;
-  width: 400px;
 }
 
 .team_img_item img {
-  max-height: 100%;
-  max-width: 100%;
+  height: 300px;
 }
 
 
